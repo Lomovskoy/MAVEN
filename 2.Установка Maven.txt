@@ -1,0 +1,9 @@
+1. Переходим по адресчу http://maven.apache.org/download.cgi
+2. Качаем самый последний zip архив apache-maven-3.5.3-bin.zip
+3. Создайте отдельный репозиторый для Maven C:\java_project\tools
+4. Добавить путь к каталогу C:\java_project\tools\apache-maven-3.5.3\bin 
+	ы адресное пространство имён командной строки.
+	Мой компьютер, свойства, дополнительные патаметры системы, переменные среды, системные, переменная Path
+	в самый конец добавить ;C:\java_project\tools\apache-maven-3.5.3\bin
+5. Новая системная переменная M2_HOME значение переменной C:\java_project\tools\apache-maven-3.5.3
+6. Написать в командной строке mvn -version

@@ -1,0 +1,5 @@
+1. Зайти в каталог с исходниками прокта - C:\java_project\sources\exemple
+2. Ввестикоманду mvn
+	очистить проект если нужно mvn clean
+	собрать проект mvn package
+	в папке target появится jar
